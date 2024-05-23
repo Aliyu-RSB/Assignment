@@ -1,0 +1,18 @@
+html
+ head
+  title Product
+ body
+  form(action="/new-product", method="POST")
+   div
+    label(for="name") ProducName:
+    input(name="name")
+   br
+   div
+    label(for="id") ID:
+    input(name="id")
+   br
+   div
+    label(for="note") Note:
+    input(name="note")
+   br
+   button(type="submit") Create New Product

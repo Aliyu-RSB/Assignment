@@ -1,0 +1,11 @@
+html
+ head
+  title Product
+ body
+  if (type == "error")
+     h3(style="color:orange") #{message}
+  else
+     h3 New Product,
+     p Name: #{product.name}
+     p ID: #{product.id} and
+     p Description: #{product.note} added!
